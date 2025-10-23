@@ -1,0 +1,35 @@
+
+RESULTS SUMMARY FOR JOURNAL ARTICLE
+====================================
+
+Sample Characteristics:
+- Final analytic sample: N = 365,625
+- Complete cases from 26 variables
+- Represents 84.38% of original sample
+
+Principal Component Analysis Results:
+
+Variance Explained:
+- PC1: 15.78% - Physical Function/Disability
+- PC2: 8.20% - Healthcare Access/Mental Health  
+- PC3: 5.59% - Cardiovascular/Chronic Disease
+- Total for first 3 PCs: 29.57%
+- Components needed for 80% variance: 18
+
+Component Interpretations:
+
+PC1 - Physical Function/Disability (15.78%):
+- Highest loadings: GENHLTH (-0.693), DIFFWALK (0.675), PHYSHLTH (-0.663)
+- Represents physical health limitations and functional capacity
+- Negative loadings on health status, positive on disability measures
+
+PC2 - Healthcare Utilization/Mental Health (8.20%):
+- Highest loadings: CHECKUP1 (0.533), MENTHLTH (0.476), CHOLCHK3 (0.441)
+- Captures healthcare engagement and mental wellbeing
+- Mix of preventive care and psychological health
+
+PC3 - Chronic Disease Management (5.59%):
+- Highest loadings: CHECKUP1 (0.516), PERSDOC3 (0.490), CVDINFR4 (-0.461)
+- Reflects cardiovascular disease and care continuity
+- Negative loadings on disease, positive on care access
+

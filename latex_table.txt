@@ -1,0 +1,22 @@
+
+\begin{table}[h]
+\centering
+\caption{Principal Component Analysis Results: First 10 Components}
+\begin{tabular}{lcccc}
+\hline
+Component & Eigenvalue & Variance (\%) & Cumulative (\%) & Interpretation \\
+\hline
+PC1 & 4.102 & 15.78 & 15.78 & Physical Function/Disability \\
+PC2 & 2.132 & 8.20 & 23.98 & Healthcare Access/Mental Health \\
+PC3 & 1.453 & 5.59 & 29.57 & Cardiovascular/Chronic Disease \\
+PC4 & 1.284 & 4.94 & 34.50 & -- \\
+PC5 & 1.142 & 4.39 & 38.90 & -- \\
+PC6 & 1.067 & 4.11 & 43.00 & -- \\
+PC7 & 1.035 & 3.98 & 46.98 & -- \\
+PC8 & 1.004 & 3.86 & 50.84 & -- \\
+PC9 & 0.922 & 3.55 & 54.39 & -- \\
+PC10 & 0.898 & 3.45 & 57.84 & -- \\
+\hline
+\end{tabular}
+\end{table}
+

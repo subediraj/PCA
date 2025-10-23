@@ -1,0 +1,25 @@
+
+METHODS SUMMARY FOR JOURNAL ARTICLE
+====================================
+
+Data Source:
+- CDC Behavioral Risk Factor Surveillance System (BRFSS) 2023
+- N = 433,323 respondents from all U.S. states and territories
+
+Variable Selection:
+- 26 health-related variables selected from 350 available variables
+- Categories: Health Status (3), Chronic Conditions (11), Health Behaviors (3), 
+  Healthcare Access (3), Disability/Function (6)
+- Variables selected based on <10% missing data and theoretical relevance
+
+Data Preprocessing:
+- Missing value codes (77, 88, 99, etc.) recoded appropriately
+- Special codes: 88 in health days = 0 days (not missing)
+- BMI rescaled from integer to decimal format
+- Complete case analysis: N = 365,625 (84.38% retention)
+
+PCA Implementation:
+- Data standardized (mean = 0, SD = 1) prior to analysis
+- Correlation matrix-based PCA
+- All 26 components extracted, first 10 retained for interpretation
+
